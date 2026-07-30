@@ -100,3 +100,5 @@ The `/weather` route is protected by `express-rate-limit`, configured with a req
 - Add automated tests (e.g. Jest + Supertest) covering validation and error branches
 - Add an unthrottled `/health` endpoint
 - Handle Redis connection failures separately from upstream API failures
+
+inspired by: https://roadmap.sh/projects/weather-api-wrapper-service
