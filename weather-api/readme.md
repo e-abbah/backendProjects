@@ -1,4 +1,4 @@
-# Weather API
+# Weather API inspired by https://roadmap.sh/projects/weather-api-wrapper-service
 
 A small Express API that fetches current weather conditions from [Visual Crossing](https://www.visualcrossing.com/weather-api), with Redis caching, environment-based configuration, layered error handling, and rate limiting.
 
@@ -101,4 +101,3 @@ The `/weather` route is protected by `express-rate-limit`, configured with a req
 - Add an unthrottled `/health` endpoint
 - Handle Redis connection failures separately from upstream API failures
 
-inspired by: https://roadmap.sh/projects/weather-api-wrapper-service
